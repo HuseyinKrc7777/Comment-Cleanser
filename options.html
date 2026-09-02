@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comment Clenser</title>
+</head>
+
+<body>
+
+    <h1>Comment Clenser</h1>
+
+    <label for="regexes">
+        Regular expressions
+    </label>
+
+    <textarea
+        id="regexes"
+        rows="15"
+        cols="60"
+        placeholder="\b(year|old)\b&#10;\d{4}&#10;\b:|%\b"
+    ></textarea>
+
+    <br>
+
+    <button id="save" type="button">
+        Save
+    </button>
+
+    <span id="saveMessage"></span>
+
+    <script src="options.js"></script>
+
+</body>
+</html>
